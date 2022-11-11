@@ -2,7 +2,7 @@ void setup(){
   
   int time = millis();
   
-  String input = "2pi/3";
+  String input = "2pi/3";   // Try changing this 
  
   String NumeratorString = input.substring( 0, input.indexOf("p")); 
   String DenominatorString = input.substring( input.indexOf("/") +1  , input.length());        
